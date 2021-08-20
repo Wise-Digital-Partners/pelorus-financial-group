@@ -46,10 +46,10 @@ const Page = ({ data }) => {
       />
 
       <section className="relative pt-32 md:pt-0 mb-2 md:mb-32">
-        <div className="md:hidden">
+        <div className="absolute top-0 md:hidden w-full h-full">
           <GatsbyImage
             image={data.heroDesktop.childImageSharp.gatsbyImageData}
-            className="absolute top-0 w-full h-full"
+            className="w-full h-full"
           />
         </div>
         <div className="max-h-[900px] overflow-hidden">
