@@ -37,19 +37,22 @@ const CTA = ({ heading, headingLevel, subtext, className }) => {
   ];
 
   return (
-    <Background backgroundImages={backgroundImages} padding="py-20 md:py-36">
+    <Background
+      backgroundImages={backgroundImages}
+      padding="pt-24 pb-80 md:py-36"
+    >
       <header className="text-center md:text-left">
         <HeadingTag className="text-mobile-6xl md:text-6xl text-white md:mb-6">
           {heading || ["Explore The Possibilities"]}
         </HeadingTag>
 
-        <p className="text-base md:text-xl text-white">
+        <p className="text-xl text-white mb-8 md:mb-6">
           {subtext ||
             "Get a quote or speak with one of our team members to discuss your needs."}
         </p>
       </header>
 
-      <div className="flex flex-col md:flex-row items-center space-y-5 md:space-y-0 md:space-x-4">
+      <div className="flex items-center space-x-4">
         <ButtonGhost
           modal="modal-contact"
           altStyle={true}
