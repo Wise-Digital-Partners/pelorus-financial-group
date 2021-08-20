@@ -1,0 +1,8 @@
+.tl-edges {
+  overflow-x: initial !important;
+}
+
+a,
+button {
+  @apply outline-none transition-all duration-300 ease-linear;
+}
