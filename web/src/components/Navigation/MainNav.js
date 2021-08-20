@@ -371,47 +371,7 @@ const MainNav = ({
                   className="flex flex-col space-y-7 mb-12 text-center"
                 >
                   <li>
-                    <AniLink
-                      fade
-                      to="/dialysis-services"
-                      onKeyDown={clickHandler}
-                      onClick={clickHandler}
-                      className="font-heading text-2xl text-white hover:text-white font-bold no-underline"
-                    >
-                      Dialysis
-                    </AniLink>
-                  </li>
-
-                  <li>
-                    <AniLink
-                      fade
-                      to="/nephrology"
-                      onKeyDown={clickHandler}
-                      onClick={clickHandler}
-                      className="font-heading text-2xl text-white hover:text-white font-bold no-underline"
-                    >
-                      Nephrology
-                    </AniLink>
-                  </li>
-                  <li>
                     <Accordion title="About">
-                      {navigation.about.map((item) => (
-                        <li key={item.name}>
-                          <AniLink
-                            fade
-                            to={item.href}
-                            onKeyDown={clickHandler}
-                            onClick={clickHandler}
-                            className="font-body text-white uppercase tracking-widest no-underline"
-                          >
-                            {item.name}
-                          </AniLink>
-                        </li>
-                      ))}
-                    </Accordion>
-                  </li>
-                  <li>
-                    <Accordion title="about">
                       {navigation.about.map((item) => (
                         <li key={item.name} className="whitespace-nowrap">
                           <AniLink
@@ -428,7 +388,24 @@ const MainNav = ({
                     </Accordion>
                   </li>
                   <li>
-                    <Accordion title="tools">
+                    <Accordion title="Markets">
+                      {navigation.markets.map((item) => (
+                        <li key={item.name}>
+                          <AniLink
+                            fade
+                            to={item.href}
+                            onKeyDown={clickHandler}
+                            onClick={clickHandler}
+                            className="font-body text-white uppercase tracking-widest no-underline"
+                          >
+                            {item.name}
+                          </AniLink>
+                        </li>
+                      ))}
+                    </Accordion>
+                  </li>
+                  <li>
+                    <Accordion title="Tools">
                       {navigation.tools.map((item) => (
                         <li key={item.name}>
                           <AniLink
@@ -443,6 +420,17 @@ const MainNav = ({
                         </li>
                       ))}
                     </Accordion>
+                  </li>
+                  <li>
+                    <AniLink
+                      fade
+                      to="/blog/"
+                      onKeyDown={clickHandler}
+                      onClick={clickHandler}
+                      className="font-heading text-2xl text-white hover:text-white font-bold no-underline"
+                    >
+                      Blog
+                    </AniLink>
                   </li>
                 </ul>
 
