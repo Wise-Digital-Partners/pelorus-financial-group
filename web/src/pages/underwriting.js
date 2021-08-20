@@ -415,7 +415,7 @@ const Page = ({ data }) => {
           <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-y-8 md:gap-y-6 md:gap-x-5 lg:gap-x-10">
             <AniLink
               fade
-              to="http://www.lifehappens.org/life-insurance-needs-pencil/"
+              to="https://www.pelorusfg.com/pdfs/Cover-Letters.pdf"
               target="_blank"
               rel="noopener noreferrer"
               className="border border-primary-400 px-4 pb-10 pt-20 md:pt-28 rounded shadow-3xl h-full relative"
@@ -438,7 +438,7 @@ const Page = ({ data }) => {
 
             <AniLink
               fade
-              to="http://www.lifehappens.org/human-life-value-pencil/"
+              to="https://www.pelorusfg.com/pdfs/Paramed-Client.pdf"
               target="_blank"
               rel="noopener noreferrer"
               className="border border-primary-400 px-4 pb-10 pt-20 md:pt-28 rounded shadow-3xl h-full relative"
@@ -461,7 +461,7 @@ const Page = ({ data }) => {
 
             <AniLink
               fade
-              to="http://www.dinkytown.net/java/Disability.html"
+              to="https://www.pelorusfg.com/pdfs/Paramed-Client.pdf"
               target="_blank"
               rel="noopener noreferrer"
               className="border border-primary-400 px-4 pb-10 pt-20 md:pt-28 rounded shadow-3xl h-full relative"
@@ -484,7 +484,7 @@ const Page = ({ data }) => {
 
             <AniLink
               fade
-              to="https://www.calcxml.com/pencils/ins07"
+              to="https://www.pelorusfg.com/pdfs/Financial-Underwriting.pdf"
               target="_blank"
               rel="noopener noreferrer"
               className="border border-primary-400 px-4 pb-10 pt-20 md:pt-28 rounded shadow-3xl h-full relative"
@@ -507,7 +507,7 @@ const Page = ({ data }) => {
 
             <AniLink
               fade
-              to="https://www.calcxml.com/pencils/ins07"
+              to="https://www.pelorusfg.com/pdfs/Inspection-Report-Guidelines.pdf"
               target="_blank"
               rel="noopener noreferrer"
               className="border border-primary-400 px-4 pb-10 pt-20 md:pt-28 rounded shadow-3xl h-full relative"
@@ -530,7 +530,7 @@ const Page = ({ data }) => {
 
             <AniLink
               fade
-              to="https://www.calcxml.com/pencils/ins07"
+              to="https://www.pelorusfg.com/pdfs/Life-Underwriting-Overview.pdf"
               target="_blank"
               rel="noopener noreferrer"
               className="border border-primary-400 px-4 pb-10 pt-20 md:pt-28 rounded shadow-3xl h-full relative"
