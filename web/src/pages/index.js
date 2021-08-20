@@ -46,6 +46,12 @@ const Page = ({ data }) => {
       />
 
       <section className="relative pt-32 md:pt-0 mb-2 md:mb-32">
+        <div className="md:hidden">
+          <GatsbyImage
+            image={data.heroDesktop.childImageSharp.gatsbyImageData}
+            className="absolute top-0 w-full h-full"
+          />
+        </div>
         <div className="max-h-[900px] overflow-hidden">
           <video
             width="100%"
@@ -61,9 +67,9 @@ const Page = ({ data }) => {
           </video>
         </div>
 
-        <div className="container absolute top-0 left-0 right-0 h-full">
-          <div className="max-w-[730px] h-full pb-20 lg:pb-10 xl:pb-20 flex items-start flex-col justify-end z-10">
-            <p className="font-heading text-primary-100 text-mobile-7xl md:text-7xl font-bold mb-12 md:mb-5">
+        <div className="container relative md:absolute top-0 left-0 right-0 h-full">
+          <div className="max-w-[730px] h-full pb-2 lg:pb-10 xl:pb-20 flex items-start flex-col justify-end z-10">
+            <p className="font-heading text-primary-100 text-mobile-7xl md:text-7xl font-bold mb-6 md:mb-5">
               Helping You Chart a Course For Your Clients’ Future
             </p>
             <p className="text-lg md:text-xl text-white md:font-semibold mb-12 md:mb-5">
@@ -78,13 +84,15 @@ const Page = ({ data }) => {
               className="w-full md:w-auto"
             />
 
-            <motion.img
-              src={data.scrollArrow.publicURL}
-              alt="Scroll arrow"
-              transition={bounceTransition}
-              animate={{ y: animated }}
-              className="mt-20 lg:mt-20 xl:mt-32"
-            />
+            <div class="flex justify-center md:justify-start w-full">
+              <motion.img
+                src={data.scrollArrow.publicURL}
+                alt="Scroll arrow"
+                transition={bounceTransition}
+                animate={{ y: animated }}
+                className="mt-8 lg:mt-20 xl:mt-32"
+              />
+            </div>
           </div>
         </div>
       </section>

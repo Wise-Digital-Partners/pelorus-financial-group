@@ -22,6 +22,8 @@ const Header = ({
       offcanvasNavigation = document.querySelector("#offcanvas-navigation"),
       bodyContent = document.querySelector("#body-content");
 
+    offcanvasNavigation.style.top = mainNavigation.offsetHeight + "px";
+
     const handleLoad = () => {
       // calculate #offcanvas-navigation menu offset top
       offcanvasNavigation.style.top = mainNavigation.offsetHeight + "px";
