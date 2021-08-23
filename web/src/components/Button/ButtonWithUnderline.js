@@ -36,7 +36,7 @@ const Button = ({
         <span className="absolute w-full bottom-0 left-0 right-auto bg-primary-400 h-0.5 transition-all duration-500 ease-in-out"></span>
       </div>
 
-      <div className="relative pl-2.5 group-hover:ml-2.5 transition-all duration-500 ease-in-out">
+      <div className="relative pl-2.5 left-0 group-hover:left-2.5 transition-all duration-500 ease-in-out">
         <img src={triangle} className="pb-2" alt="Triangle icon" />
         <span className="absolute w-full bottom-0 left-0 right-auto bg-primary-400 h-0.5 transition-all duration-500 ease-in-out"></span>
       </div>

@@ -85,14 +85,16 @@ const Page = ({ data }) => {
           <div className="grid md:grid-cols-3 gap-y-10 md:gap-y-14 md:gap-x-5 lg:gap-x-10">
             {content.map((content, i) => {
               return (
-                <AniLink fade to={content.link}>
+                <AniLink fade to={content.link} className="group">
                   <GatsbyImage
                     image={content.image}
                     alt={content.heading}
                     className="w-full"
                   />
                   <div className="pt-6">
-                    <h2 className="heading-four mb-4">{content.heading}</h2>
+                    <h2 className="heading-four group-hover:text-primary-400 transition-colors duration-300 ease-linear mb-4">
+                      {content.heading}
+                    </h2>
                     <p className="mb-0">{content.text}</p>
                   </div>
                 </AniLink>

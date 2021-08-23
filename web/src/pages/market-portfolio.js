@@ -84,7 +84,7 @@ const Page = ({ data }) => {
                 <AniLink
                   fade
                   to={content.link}
-                  className="group grid md:grid-cols-12 shadow-2xl"
+                  className="group grid md:grid-cols-12 shadow-2xl rounded border-4 border-transparent hover:border-primary-400/40"
                 >
                   <div className="md:col-start-1 md:col-span-4">
                     <GatsbyImage
@@ -96,7 +96,9 @@ const Page = ({ data }) => {
                   </div>
                   <div className="md:col-end-13 md:col-span-8 relative">
                     <div className="px-4 md:px-5 lg:px-8 pt-6 md:pt-7 pb-7 md:pb-8">
-                      <h2 className="heading-six mb-4">{content.heading}</h2>
+                      <h2 className="heading-six group-hover:text-primary-400 transition-colors duration-300 ease-linear mb-4">
+                        {content.heading}
+                      </h2>
                       <p className="mb-0">{content.text}</p>
                     </div>
                   </div>

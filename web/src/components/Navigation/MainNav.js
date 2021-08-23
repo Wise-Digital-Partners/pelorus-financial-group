@@ -427,7 +427,7 @@ const MainNav = ({
                       to="/blog/"
                       onKeyDown={clickHandler}
                       onClick={clickHandler}
-                      className="font-heading text-2xl text-white hover:text-white font-bold no-underline"
+                      className="font-heading text-3xl text-white hover:text-white font-medium no-underline"
                     >
                       Blog
                     </AniLink>

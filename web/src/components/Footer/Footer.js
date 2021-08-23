@@ -4,6 +4,7 @@ import AniLink from "gatsby-plugin-transition-link/AniLink";
 
 import ModalContact from "../Modal/ModalContact";
 import Newsletter from "../Form/Newsletter";
+import nestLogo from "../../images/global/Nest Logo.svg";
 
 const Footer = ({ hideFooter }) => {
   const getYear = () => {
@@ -88,7 +89,7 @@ const Footer = ({ hideFooter }) => {
   return (
     <>
       <footer
-        className={`bg-primary-800 pt-20 lg:pt-20 pb-12 lg:pb-6 text-center lg:text-left ${
+        className={`bg-primary-800 pt-14 lg:pt-20 pb-12 lg:pb-6 text-center lg:text-left ${
           hideFooter && "hidden"
         }`}
       >
@@ -100,7 +101,7 @@ const Footer = ({ hideFooter }) => {
                   src={data.logo.publicURL}
                   alt="Pelorus Financial Group Logo"
                   width="200"
-                  className="mx-auto lg:mx-0 mb-10"
+                  className="mx-auto lg:mx-0 mb-14 lg:mb-10"
                 />
               </AniLink>
 
@@ -183,37 +184,41 @@ const Footer = ({ hideFooter }) => {
           </div>
 
           <div className="flex flex-wrap lg:flex-nowrap flex-col lg:flex-row justify-items-center lg:justify-between lg:items-center lg:pt-4">
-            <div className="lg:flex lg:items-center">
-              <ul className="flex items-center flex-wrap lg:space-x-4 justify-center lg:justify-start">
+            <div className="lg:flex lg:items-center mb-2 lg:mb-0">
+              <ul className="flex items-center flex-col lg:flex-row flex-wrap space-y-1 lg:space-y-0 lg:space-x-4 justify-center lg:justify-start">
                 <li className="text-sm text-gray-50">
-                  © {getYear()} Pelorus Financial Group{" "}
+                  © {getYear()} Pelorus Financial Group
                 </li>
-                <div className="lg:hidden text-gray-50 mx-1">|</div>
                 <li className="text-sm">
                   <AniLink
                     fade
                     to="/privacy-policy/"
-                    className="text-gray-50 hover:text-primary-800 no-underline"
+                    className="text-gray-50 hover:text-primary-100 no-underline"
                   >
                     Privacy Policy
                   </AniLink>
                 </li>
-                <div className="lg:hidden text-gray-50 mx-1">|</div>
-                <div className="lg:hidden text-gray-50 mx-1">|</div>
+                <li className="text-sm">
+                  <AniLink
+                    fade
+                    to="/terms-of-use/"
+                    className="text-gray-50 hover:text-primary-100 no-underline"
+                  >
+                    Terms of Use
+                  </AniLink>
+                </li>
               </ul>
             </div>
 
-            <div className="hidden lg:flex flex-row justify-center space-x-4">
-              <div className="text-sm text-gray-50 w-full md:w-auto">
-                <a
-                  className="no-underline hover:text-primary-800"
-                  href="https://www.wisedigitalpartners.com/affordable-web-design/"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
-                  Powered by NEST
-                </a>
-              </div>
+            <div className="text-sm text-gray-50 w-full md:w-auto">
+              <a
+                className="no-underline text-gray-50 hover:text-primary-100 flex items-center justify-center lg:justify-start space-x-1"
+                href="https://www.wisedigitalpartners.com/affordable-web-design/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <span>Powered by</span> <img src={nestLogo} />
+              </a>
             </div>
           </div>
         </div>

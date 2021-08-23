@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useRef, useState } from "react";
 import { graphql } from "gatsby";
 import { GatsbyImage, getImage } from "gatsby-plugin-image";
 import AniLink from "gatsby-plugin-transition-link/AniLink";
@@ -36,6 +36,11 @@ const Page = ({ data }) => {
     },
   };
 
+  const videoRef = useRef();
+  const setPlayBack = () => {
+    videoRef.current.playbackRate = 0.85;
+  };
+
   return (
     <Layout headerStyle="overlap" headerLinkColor="white">
       <SearchEngineOptimization
@@ -54,6 +59,8 @@ const Page = ({ data }) => {
         </div>
         <div className="max-h-[900px] overflow-hidden">
           <video
+            ref={videoRef}
+            onCanPlay={() => setPlayBack()}
             width="100%"
             autoPlay
             muted
@@ -126,14 +133,14 @@ const Page = ({ data }) => {
 
       <Background
         backgroundImages={quoteBackgroundImages}
-        padding="md:pt-44 md:pb-32 h-screen md:h-auto flex items-center"
+        padding="md:pt-44 md:pb-44 h-screen md:h-auto flex items-center"
         className="mb-20 md:mb-32"
       >
         <div className="max-w-[690px] mx-auto text-center">
           <blockquote>
             <q className="font-heading text-primary-600 text-4xl tracking-wider block mb-8 md:mb-10">
               It is not the ship so much as the skillful sailing that assures
-              the prosperous voyage
+              the prosperous voyage.
             </q>
             <cite className="tracking-widest uppercase not-italic">
               - George William Curtis
@@ -161,7 +168,7 @@ const Page = ({ data }) => {
                 </div>
                 <p className="heading-five mb-0">Life Insurance</p>
               </AniLink>
-              <AniLink fade to="/life-insurance-broker/" className="group">
+              <AniLink fade to="/annuity-broker-advisor/" className="group">
                 <div className="filter grayscale group-hover:grayscale-0 mb-2 transition-all duration-300 ease-linear">
                   <GatsbyImage
                     image={data.annuities.childImageSharp.gatsbyImageData}
@@ -169,7 +176,11 @@ const Page = ({ data }) => {
                 </div>
                 <p className="heading-five mb-0">Annuities</p>
               </AniLink>
-              <AniLink fade to="/life-insurance-broker/" className="group">
+              <AniLink
+                fade
+                to="/disability-insurance-broker/"
+                className="group"
+              >
                 <div className="filter grayscale group-hover:grayscale-0 mb-2 transition-all duration-300 ease-linear">
                   <GatsbyImage
                     image={data.assetProtection.childImageSharp.gatsbyImageData}
@@ -177,7 +188,7 @@ const Page = ({ data }) => {
                 </div>
                 <p className="heading-five mb-0">Income & Asset Protection</p>
               </AniLink>
-              <AniLink fade to="/life-insurance-broker/" className="group">
+              <AniLink fade to="/asset-based-ltc-insurance/" className="group">
                 <div className="filter grayscale group-hover:grayscale-0 mb-2 transition-all duration-300 ease-linear">
                   <GatsbyImage
                     image={data.assetBasedLTC.childImageSharp.gatsbyImageData}
@@ -185,7 +196,7 @@ const Page = ({ data }) => {
                 </div>
                 <p className="heading-five mb-0">Asset Based LTC</p>
               </AniLink>
-              <AniLink fade to="/life-insurance-broker/" className="group">
+              <AniLink fade to="/estate-planning-insurance/" className="group">
                 <div className="filter grayscale group-hover:grayscale-0 mb-2 transition-all duration-300 ease-linear">
                   <GatsbyImage
                     image={data.estatePlanning.childImageSharp.gatsbyImageData}
@@ -193,7 +204,7 @@ const Page = ({ data }) => {
                 </div>
                 <p className="heading-five mb-0">Estate Planning</p>
               </AniLink>
-              <AniLink fade to="/life-insurance-broker/" className="group">
+              <AniLink fade to="/premium-finance-services/" className="group">
                 <div className="filter grayscale group-hover:grayscale-0 mb-2 transition-all duration-300 ease-linear">
                   <GatsbyImage
                     image={
@@ -203,7 +214,7 @@ const Page = ({ data }) => {
                 </div>
                 <p className="heading-five mb-0">Premium Financing</p>
               </AniLink>
-              <AniLink fade to="/life-insurance-broker/" className="group">
+              <AniLink fade to="/business-succession/" className="group">
                 <div className="filter grayscale group-hover:grayscale-0 mb-2 transition-all duration-300 ease-linear">
                   <GatsbyImage
                     image={
@@ -213,7 +224,11 @@ const Page = ({ data }) => {
                 </div>
                 <p className="heading-five mb-0">Business Succession</p>
               </AniLink>
-              <AniLink fade to="/life-insurance-broker/" className="group">
+              <AniLink
+                fade
+                to="/wealth-accumulation-insurance/"
+                className="group"
+              >
                 <div className="filter grayscale group-hover:grayscale-0 mb-2 transition-all duration-300 ease-linear">
                   <GatsbyImage
                     image={

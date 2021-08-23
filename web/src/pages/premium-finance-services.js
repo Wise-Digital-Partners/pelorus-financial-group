@@ -31,7 +31,7 @@ const Page = ({ data }) => {
         <div className="container">
           <div className="grid md:grid-cols-2 gap-y-8 md:gap-x-10 lg:gap-x-20 items-center">
             <div className="order-2 md:order-1">
-              <h1>Premium, Finance Services</h1>
+              <h1>Premium Finance Services</h1>
               <p className="mb-0">
                 Many individuals understand the traditional way to design and
                 pay for permanent life insurance through cash payments over

@@ -73,7 +73,7 @@ const Page = ({ data }) => {
                 </li>
                 <li className="font-heading font-medium">
                   <a
-                    href={coverLetter}
+                    href={estateGrowthGuidelines}
                     target="_blank"
                     rel="noopener noreferrer"
                   >
@@ -82,7 +82,7 @@ const Page = ({ data }) => {
                 </li>
                 <li className="font-heading font-medium">
                   <a
-                    href={coverLetter}
+                    href={incomeReplacementGuidelines}
                     target="_blank"
                     rel="noopener noreferrer"
                   >
@@ -91,7 +91,7 @@ const Page = ({ data }) => {
                 </li>
                 <li className="font-heading font-medium">
                   <a
-                    href={coverLetter}
+                    href={inspectionReportGuidelines}
                     target="_blank"
                     rel="noopener noreferrer"
                   >
@@ -100,7 +100,7 @@ const Page = ({ data }) => {
                 </li>
                 <li className="font-heading font-medium">
                   <a
-                    href={coverLetter}
+                    href={premiumRatioGuidelines}
                     target="_blank"
                     rel="noopener noreferrer"
                   >
