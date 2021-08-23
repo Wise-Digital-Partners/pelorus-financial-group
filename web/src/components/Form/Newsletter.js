@@ -51,7 +51,7 @@ export default class Form extends Component {
     return (
       <StyledForm>
         <div className="text-white font-bold mb-4">
-          Subscribe to Our Newsletter
+          {this.props.text || "Subscribe to Our Newsletter"}
         </div>
         <div id="newsletter-form-ajax-response" className="text-white"></div>
         <form

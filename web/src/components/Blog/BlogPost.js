@@ -10,11 +10,11 @@ import CallToAction from "../Repeating/CTA";
 import RecentBlogPosts from "../Repeating/RecentBlogPosts";
 
 const StyledContent = styled.div`
-  p,
+  /* p,
   span,
   li {
-    ${tw`text-base md:text-xl tracking-normal`}
-  }
+    ${tw``}
+  } */
   ul {
     ${tw`list-disc pl-7 mb-6 flex flex-col space-y-0.5`}
   }
@@ -30,7 +30,7 @@ function BlogPost(props) {
     // publishedAt,
   } = props;
   return (
-    <article className="pt-12 md:pt-14">
+    <article className="pt-12 md:pt-16">
       <div className="container">
         <div className="max-w-[800px] mx-auto">
           <header>

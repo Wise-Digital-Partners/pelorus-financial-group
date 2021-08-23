@@ -4,7 +4,7 @@ import React from "react";
 
 function BlogPostList(props) {
   return (
-    <div className="grid md:grid-cols-3 gap-x-10 gap-y-12 md:gap-y-18">
+    <div className="grid md:grid-cols-3 gap-x-10 gap-y-12 md:gap-y-12">
       {props.title}
       {props.nodes &&
         props.nodes.map((node) => (
