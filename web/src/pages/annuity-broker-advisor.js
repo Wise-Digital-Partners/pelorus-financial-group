@@ -28,11 +28,11 @@ const Page = ({ data }) => {
               <h1>Annuity Broker</h1>
               <p>
                 With some of the deepest roots in the industry, partnering with
-                Pelorus means you will work with an annuity broker and advisor
-                that understands how to design and sell annuities. We work with
-                the largest and most reputable carriers in the world. Let us
-                assist you with quotes, contracting, and servicing for all your
-                annuity needs.
+                Pelorus means you will work with a Brokerage General Agency and
+                advisor that understands how to design and sell annuities. We
+                work with the largest and most reputable carriers in the world
+                distributing fixed and indexed annuities. Let us assist you with
+                quotes, contracting, and servicing for all your annuity needs.
               </p>
               <ButtonSolid href="/get-a-quote/" text="Run a Quote" />
             </div>

@@ -69,7 +69,7 @@ const Slider = ({ slideIndex, slides }) => {
               <div>
                 <div className="grid md:grid-cols-12 gap-y-8 md:gap-x-10">
                   <div className="md:col-start-1 md:col-span-4">
-                    <GatsbyImage image={content.image} />
+                    <GatsbyImage image={content.imagePopup} />
                   </div>
 
                   <div className="md:col-end-13 md:col-span-8">

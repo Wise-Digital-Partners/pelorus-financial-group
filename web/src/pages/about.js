@@ -25,7 +25,8 @@ const Page = ({ data }) => {
   const content = {
     team: [
       {
-        image: data.teamPlaceholder.childImageSharp.gatsbyImageData,
+        image: data.brandon.childImageSharp.gatsbyImageData,
+        imagePopup: data.brandonPopup.childImageSharp.gatsbyImageData,
         first_name: "Brandon",
         last_name: "Ratliff",
         position: "President",
@@ -47,7 +48,8 @@ const Page = ({ data }) => {
         ),
       },
       {
-        image: data.teamPlaceholder.childImageSharp.gatsbyImageData,
+        image: data.evie.childImageSharp.gatsbyImageData,
+        imagePopup: data.eviePopup.childImageSharp.gatsbyImageData,
         first_name: "Evie",
         last_name: "Ratliff",
         position: "Operations Manager",
@@ -66,7 +68,8 @@ const Page = ({ data }) => {
         ),
       },
       {
-        image: data.teamPlaceholder.childImageSharp.gatsbyImageData,
+        image: data.chandler.childImageSharp.gatsbyImageData,
+        imagePopup: data.chandlerPopup.childImageSharp.gatsbyImageData,
         first_name: "Chandler",
         last_name: "Rossi",
         position: "Lead Case Manager",
@@ -86,7 +89,8 @@ const Page = ({ data }) => {
         ),
       },
       {
-        image: data.teamPlaceholder.childImageSharp.gatsbyImageData,
+        image: data.brenton.childImageSharp.gatsbyImageData,
+        imagePopup: data.brentonPopup.childImageSharp.gatsbyImageData,
         first_name: "Brenton",
         last_name: "Drake",
         position: "Brokerage Manager",
@@ -124,9 +128,13 @@ const Page = ({ data }) => {
             <div className="order-2 md:order-1">
               <h1>About Pelorus Financial Group</h1>
               <p className="mb-0">
-                Every captain needs a compass and that's where Pelorus Financial
-                Group comes in. We guide you with advanced strategies and smart
-                solutions to help you help your clients.
+                At Pelorus, we've partnered with advisors for over 19 years in
+                life insurance, annuities, disability, and long-term care
+                insurance. We provide exceptional service, underwriting
+                expertise, advanced marketing, and strategic estate and business
+                planning techniques. In marine navigation, a Pelorus is a tool
+                for maintaining the bearing of a vessel at sea, and like
+                sailors, we're here to help you guide your clients.
               </p>
             </div>
             <div className="-mx-4 md:mx-0 order-1 md:order-2">
@@ -178,7 +186,7 @@ const Page = ({ data }) => {
                   key={i}
                   className="group relative text-left"
                 >
-                  <div className="overflow-hidden mb-5">
+                  <div className="overflow-hidden mb-5 filter grayscale group-hover:grayscale-0 transition-all duration-300 ease-linear">
                     <GatsbyImage
                       image={content.image}
                       alt={(content.first_name, content.last_name)}
@@ -280,9 +288,44 @@ export const query = graphql`
         gatsbyImageData(layout: CONSTRAINED, width: 560)
       }
     }
-    teamPlaceholder: file(relativePath: { eq: "about/team-placeholder.jpg" }) {
+    brandon: file(relativePath: { eq: "about/3.1 Brandon.jpg" }) {
       childImageSharp {
-        gatsbyImageData(layout: CONSTRAINED, width: 560)
+        gatsbyImageData(layout: CONSTRAINED, width: 564)
+      }
+    }
+    brenton: file(relativePath: { eq: "about/3.3 Brenton.jpg" }) {
+      childImageSharp {
+        gatsbyImageData(layout: CONSTRAINED, width: 564)
+      }
+    }
+    chandler: file(relativePath: { eq: "about/3.2 Chandler.jpg" }) {
+      childImageSharp {
+        gatsbyImageData(layout: CONSTRAINED, width: 564)
+      }
+    }
+    evie: file(relativePath: { eq: "about/3.4 Evie.jpg" }) {
+      childImageSharp {
+        gatsbyImageData(layout: CONSTRAINED, width: 564)
+      }
+    }
+    brandonPopup: file(relativePath: { eq: "about/Brandon Pop up.jpg" }) {
+      childImageSharp {
+        gatsbyImageData(layout: CONSTRAINED, width: 788)
+      }
+    }
+    brentonPopup: file(relativePath: { eq: "about/Brenton Pop up.jpg" }) {
+      childImageSharp {
+        gatsbyImageData(layout: CONSTRAINED, width: 788)
+      }
+    }
+    chandlerPopup: file(relativePath: { eq: "about/Chandler Pop up.jpg" }) {
+      childImageSharp {
+        gatsbyImageData(layout: CONSTRAINED, width: 788)
+      }
+    }
+    eviePopup: file(relativePath: { eq: "about/Evie Pop up.jpg" }) {
+      childImageSharp {
+        gatsbyImageData(layout: CONSTRAINED, width: 788)
       }
     }
   }

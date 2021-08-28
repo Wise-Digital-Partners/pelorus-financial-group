@@ -65,15 +65,21 @@ const Testimonial = ({ className, headingLevel }) => {
   const testimonials = [
     {
       quote:
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit ut aliquam, purus sit amet luctus venenatis, lectus magna fringilla urna, porttitor rhoncus dolor purus non enim praesent elementum facilisis leo, vel fringilla est ullamcorper eget nulla facilisi etiam dignissim diam quis",
-      name: "Person’s Name",
-      company: "Company Name",
+        "I have been in the insurance business for 37 years and worked with many brokers. Brandon is by far the most knowledgeable, helpful, and responsive broker I have ever worked with.",
+      name: "Mike O’Brien",
+      // company: "",
     },
     {
       quote:
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit ut aliquam, purus sit amet luctus venenatis, lectus magna fringilla urna, porttitor rhoncus dolor purus non enim praesent elementum facilisis leo, vel fringilla est ullamcorper eget nulla facilisi etiam dignissim diam quis",
-      name: "Person’s Name",
-      company: "Company Name",
+        "The team at Pelorus Financial is a joy to work with. I am with a mutual company; we use Pelorus for all outside business. I highly recommend.",
+      name: "Jeremy Heasell",
+      // company: "",
+    },
+    {
+      quote:
+        "I can always count on a quick response from everyone at Pelorus, and I have absolute trust in this agency. The entire team is personable, professional, and an absolute pleasure to work with.",
+      name: "Laura Leavitt",
+      // company: "",
     },
   ];
 
@@ -103,9 +109,9 @@ const Testimonial = ({ className, headingLevel }) => {
                       <cite className="not-italic">
                         <div className="text-sm md:text-base text-gray-900 uppercase tracking-wide mb-2">
                           <span className="font-semibold">
-                            {testimonial.name} /
-                          </span>{" "}
-                          <span>{testimonial.company}</span>
+                            {testimonial.name}
+                          </span>
+                          {/* <span>{testimonial.company}</span> */}
                         </div>
                         {/* <GatsbyImage image={testimonial.platform} /> */}
                       </cite>
