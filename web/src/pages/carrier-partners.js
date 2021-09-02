@@ -12,9 +12,6 @@ import downloadFile from "../downloads/CarrierRoster Pelorus.pdf";
 const Page = ({ data }) => {
   const carriers = [
     {
-      logo: data.carrier01.childImageSharp.gatsbyImageData,
-    },
-    {
       logo: data.carrier02.childImageSharp.gatsbyImageData,
     },
     {
@@ -22,9 +19,6 @@ const Page = ({ data }) => {
     },
     {
       logo: data.carrier04.childImageSharp.gatsbyImageData,
-    },
-    {
-      logo: data.carrier05.childImageSharp.gatsbyImageData,
     },
     {
       logo: data.carrier06.childImageSharp.gatsbyImageData,
@@ -36,16 +30,7 @@ const Page = ({ data }) => {
       logo: data.carrier08.childImageSharp.gatsbyImageData,
     },
     {
-      logo: data.carrier09.childImageSharp.gatsbyImageData,
-    },
-    {
-      logo: data.carrier10.childImageSharp.gatsbyImageData,
-    },
-    {
       logo: data.carrier11.childImageSharp.gatsbyImageData,
-    },
-    {
-      logo: data.carrier12.childImageSharp.gatsbyImageData,
     },
     {
       logo: data.carrier13.childImageSharp.gatsbyImageData,
@@ -66,9 +51,6 @@ const Page = ({ data }) => {
       logo: data.carrier18.childImageSharp.gatsbyImageData,
     },
     {
-      logo: data.carrier19.childImageSharp.gatsbyImageData,
-    },
-    {
       logo: data.carrier20.childImageSharp.gatsbyImageData,
     },
     {
@@ -87,7 +69,19 @@ const Page = ({ data }) => {
       logo: data.carrier25.childImageSharp.gatsbyImageData,
     },
     {
-      logo: data.carrier26.childImageSharp.gatsbyImageData,
+      logo: data.carrier27.childImageSharp.gatsbyImageData,
+    },
+    {
+      logo: data.carrier28.childImageSharp.gatsbyImageData,
+    },
+    {
+      logo: data.carrier29.childImageSharp.gatsbyImageData,
+    },
+    {
+      logo: data.carrier30.childImageSharp.gatsbyImageData,
+    },
+    {
+      logo: data.carrier31.childImageSharp.gatsbyImageData,
     },
   ];
 
@@ -154,11 +148,6 @@ export const query = graphql`
     ) {
       publicURL
     }
-    carrier01: file(relativePath: { eq: "Carriers/carrier 01.jpg" }) {
-      childImageSharp {
-        gatsbyImageData(layout: CONSTRAINED, width: 193)
-      }
-    }
     carrier02: file(relativePath: { eq: "Carriers/carrier 02.jpg" }) {
       childImageSharp {
         gatsbyImageData(layout: CONSTRAINED, width: 193)
@@ -170,11 +159,6 @@ export const query = graphql`
       }
     }
     carrier04: file(relativePath: { eq: "Carriers/carrier 04.jpg" }) {
-      childImageSharp {
-        gatsbyImageData(layout: CONSTRAINED, width: 193)
-      }
-    }
-    carrier05: file(relativePath: { eq: "Carriers/carrier 05.jpg" }) {
       childImageSharp {
         gatsbyImageData(layout: CONSTRAINED, width: 193)
       }
@@ -194,22 +178,7 @@ export const query = graphql`
         gatsbyImageData(layout: CONSTRAINED, width: 193)
       }
     }
-    carrier09: file(relativePath: { eq: "Carriers/carrier 09.jpg" }) {
-      childImageSharp {
-        gatsbyImageData(layout: CONSTRAINED, width: 193)
-      }
-    }
-    carrier10: file(relativePath: { eq: "Carriers/carrier 10.jpg" }) {
-      childImageSharp {
-        gatsbyImageData(layout: CONSTRAINED, width: 193)
-      }
-    }
     carrier11: file(relativePath: { eq: "Carriers/carrier 11.jpg" }) {
-      childImageSharp {
-        gatsbyImageData(layout: CONSTRAINED, width: 193)
-      }
-    }
-    carrier12: file(relativePath: { eq: "Carriers/carrier 12.jpg" }) {
       childImageSharp {
         gatsbyImageData(layout: CONSTRAINED, width: 193)
       }
@@ -244,11 +213,6 @@ export const query = graphql`
         gatsbyImageData(layout: CONSTRAINED, width: 193)
       }
     }
-    carrier19: file(relativePath: { eq: "Carriers/carrier 19.jpg" }) {
-      childImageSharp {
-        gatsbyImageData(layout: CONSTRAINED, width: 193)
-      }
-    }
     carrier20: file(relativePath: { eq: "Carriers/carrier 20.jpg" }) {
       childImageSharp {
         gatsbyImageData(layout: CONSTRAINED, width: 193)
@@ -279,7 +243,27 @@ export const query = graphql`
         gatsbyImageData(layout: CONSTRAINED, width: 193)
       }
     }
-    carrier26: file(relativePath: { eq: "Carriers/carrier 26.jpg" }) {
+    carrier27: file(relativePath: { eq: "Carriers/carrier 27.jpg" }) {
+      childImageSharp {
+        gatsbyImageData(layout: CONSTRAINED, width: 193)
+      }
+    }
+    carrier28: file(relativePath: { eq: "Carriers/carrier 28.jpg" }) {
+      childImageSharp {
+        gatsbyImageData(layout: CONSTRAINED, width: 193)
+      }
+    }
+    carrier29: file(relativePath: { eq: "Carriers/carrier 29.jpg" }) {
+      childImageSharp {
+        gatsbyImageData(layout: CONSTRAINED, width: 193)
+      }
+    }
+    carrier30: file(relativePath: { eq: "Carriers/carrier 30.jpg" }) {
+      childImageSharp {
+        gatsbyImageData(layout: CONSTRAINED, width: 193)
+      }
+    }
+    carrier31: file(relativePath: { eq: "Carriers/carrier 31.jpg" }) {
       childImageSharp {
         gatsbyImageData(layout: CONSTRAINED, width: 193)
       }

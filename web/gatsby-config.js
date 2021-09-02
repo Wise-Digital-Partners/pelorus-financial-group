@@ -9,7 +9,7 @@ const isProd = process.env.NODE_ENV === "production";
 
 const {
   NODE_ENV,
-  URL: NETLIFY_SITE_URL = "https://kidney-institute.netlify.app/",
+  URL: NETLIFY_SITE_URL = "https://pelorus-financial-group.netlify.app/",
   DEPLOY_PRIME_URL: NETLIFY_DEPLOY_URL = NETLIFY_SITE_URL,
   CONTEXT: NETLIFY_ENV = NODE_ENV,
 } = process.env;
@@ -145,16 +145,16 @@ module.exports = {
         icon: `static/images/favicon.png`,
       },
     },
-    // {
-    //   resolve: "gatsby-plugin-google-tagmanager",
-    //   options: {
-    //     id: "GTM-NMDZ9P5",
-    //     includeInDevelopment: false,
-    //     // defaultDataLayer: { platform: "gatsby" },
-    //     // gtmAuth: "YOUR_GOOGLE_TAGMANAGER_ENVIRONMENT_AUTH_STRING",
-    //     // gtmPreview: "YOUR_GOOGLE_TAGMANAGER_ENVIRONMENT_PREVIEW_NAME",
-    //     // dataLayerName: "YOUR_DATA_LAYER_NAME",
-    //   },
-    // },
+    {
+      resolve: "gatsby-plugin-google-tagmanager",
+      options: {
+        id: "GTM-WGLCJS5",
+        includeInDevelopment: true,
+        // defaultDataLayer: { platform: "gatsby" },
+        // gtmAuth: "YOUR_GOOGLE_TAGMANAGER_ENVIRONMENT_AUTH_STRING",
+        // gtmPreview: "YOUR_GOOGLE_TAGMANAGER_ENVIRONMENT_PREVIEW_NAME",
+        // dataLayerName: "YOUR_DATA_LAYER_NAME",
+      },
+    },
   ],
 };

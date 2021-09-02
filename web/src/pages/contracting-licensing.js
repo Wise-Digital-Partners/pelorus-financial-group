@@ -35,11 +35,6 @@ const Page = ({ data }) => {
                 packet must be completed and submitted before you begin working
                 with us.
               </p>
-              <ButtonSolid
-                href="https://formspipe.ipipeline.com/?GAID=7205"
-                outboundLink={true}
-                text="Launch iPipeline"
-              />
             </div>
             <div className="-mx-4 md:mx-0 order-1 md:order-2">
               <GatsbyImage

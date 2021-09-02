@@ -50,10 +50,10 @@ const Page = ({ data }) => {
         // twitterOpenGraphImage={data.twitterOpenGraphImage.publicURL}
       />
 
-      <section className="relative pt-32 md:pt-0 mb-2 md:mb-32">
+      <section className="relative pt-60 md:pt-0 mb-2 md:mb-32">
         <div className="absolute top-0 md:hidden w-full h-full">
           <GatsbyImage
-            image={data.heroDesktop.childImageSharp.gatsbyImageData}
+            image={data.heroMobile.childImageSharp.gatsbyImageData}
             className="w-full h-full"
           />
         </div>
@@ -81,8 +81,7 @@ const Page = ({ data }) => {
             </p>
             <p className="text-lg md:text-xl text-white md:font-semibold mb-12 md:mb-5">
               Expert guidance, smart strategies, and a network of top-rated
-              insurance carriers for financial advisors and C-suite business
-              planning executives.
+              insurance carriers for financial advisors.
             </p>
 
             <ButtonSolid
@@ -271,7 +270,7 @@ export const query = graphql`
         gatsbyImageData(layout: FULL_WIDTH)
       }
     }
-    heroMobile: file(relativePath: { eq: "home/1.0-hero-curve-mobile.jpg" }) {
+    heroMobile: file(relativePath: { eq: "home/1.0 HP Hero mobile.jpg" }) {
       childImageSharp {
         gatsbyImageData(layout: FULL_WIDTH)
       }

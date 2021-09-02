@@ -98,14 +98,11 @@ const Page = ({ data }) => {
         bio: (
           <>
             <p>
-              Brandon has partnered with advisors for over 20 years and enjoys
-              Brenton partners with advisors, providing them with expertise in
-              life insurance, annuity, and disability planning. He supports
-              advisors nationwide. His knowledge, efficiency, and responsiveness
-              allow our partners to feel confident that they have the most
-              favorable solution for their clients. Outside of work, Brenton
-              enjoys being active, traveling, and watching the Las Vegas
-              Raiders.
+              Brenton supports advisors nationwide. His knowledge, efficiency,
+              and responsiveness allow our partners to feel confident that they
+              have the most favorable solution for their clients. Outside of
+              work, Brenton enjoys being active, traveling, and watching the Las
+              Vegas Raiders.
             </p>
           </>
         ),
