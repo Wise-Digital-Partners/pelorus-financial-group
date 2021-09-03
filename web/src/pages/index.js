@@ -11,7 +11,7 @@ import Testimonials from "../components/Repeating/Testimonials";
 import ValueProps from "../components/Repeating/ValueProps";
 import Toolbox from "../components/Repeating/Toolbox";
 import LogoCloud from "../components/Repeating/LogoCloud";
-import RecentBlogPosts from "../components/Repeating/RecentBlogPosts";
+
 import CallToAction from "../components/Repeating/CTA";
 import ButtonSolid from "../components/Button/ButtonSolid";
 import ButtonWithUnderline from "../components/Button/ButtonWithUnderline";
@@ -247,7 +247,7 @@ const Page = ({ data }) => {
       <Toolbox />
       <LogoCloud />
       <Testimonials />
-      <RecentBlogPosts />
+
       <CallToAction />
     </Layout>
   );

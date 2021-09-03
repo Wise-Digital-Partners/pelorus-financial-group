@@ -7,7 +7,7 @@ import SearchEngineOptimization from "../components/SEO";
 import Testimonials from "../components/Repeating/Testimonials";
 import ValueProps from "../components/Repeating/ValueProps";
 import Toolbox from "../components/Repeating/Toolbox";
-import RecentBlogPosts from "../components/Repeating/RecentBlogPosts";
+
 import CallToAction from "../components/Repeating/CTA";
 import ButtonWithUnderline from "../components/Button/ButtonWithUnderline";
 
@@ -85,7 +85,7 @@ const Page = ({ data }) => {
       <ValueProps />
       <Toolbox />
       <Testimonials />
-      <RecentBlogPosts />
+
       <CallToAction />
     </Layout>
   );
