@@ -53,7 +53,7 @@ const Page = ({ data }) => {
         first_name: "Evie",
         last_name: "Ratliff",
         position: "Operations Manager",
-        linkedin: "#",
+        // linkedin: "",
         bio: (
           <>
             <p>
@@ -73,7 +73,7 @@ const Page = ({ data }) => {
         first_name: "Chandler",
         last_name: "Rossi",
         position: "Lead Case Manager",
-        linkedin: "#",
+        // linkedin: "",
         bio: (
           <>
             <p>
@@ -251,12 +251,12 @@ const Page = ({ data }) => {
 export const query = graphql`
   {
     openGraphImage: file(
-      relativePath: { eq: "open-graph/facebook/Homepage.jpg" }
+      relativePath: { eq: "open-graph/facebook/About Pelorus.jpg" }
     ) {
       publicURL
     }
     twitterOpenGraphImage: file(
-      relativePath: { eq: "open-graph/twitter/Homepage.jpg" }
+      relativePath: { eq: "open-graph/twitter/About Pelorus.jpg" }
     ) {
       publicURL
     }

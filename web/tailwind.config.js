@@ -90,7 +90,6 @@ module.exports = {
         "5xl": ["2.25rem", "2.666rem"],
         "6xl": ["2.625rem", "3.125rem"],
         "7xl": ["3rem", "3.563rem"],
-        // "8xl": ["rem", "rem"],
         // "mobile-lg": ["rem", "rem"],
         // "mobile-xl": ["rem", "rem"],
         // "mobile-2xl": ["rem", "rem"],
@@ -99,7 +98,6 @@ module.exports = {
         "mobile-5xl": ["1.625rem", "2.375rem"],
         "mobile-6xl": ["2.125rem", "2.518rem"],
         "mobile-7xl": ["2.375rem", "3.25rem"],
-        // "mobile-8xl": ["rem", "rem"],
       },
       keyframes: {
         fadeIn: {

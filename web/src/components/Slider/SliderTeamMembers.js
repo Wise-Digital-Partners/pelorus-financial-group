@@ -81,7 +81,15 @@ const Slider = ({ slideIndex, slides }) => {
                       <p className="text-gray-900 text-xl mb-0">
                         {content.position}
                       </p>
-                      <i class="fab fa-linkedin text-xl text-secondary-400"></i>
+                      {content.linkedin && (
+                        <a
+                          href={content.linkedin}
+                          target="_blank"
+                          rel="noopener noreferrer"
+                        >
+                          <i class="fab fa-linkedin text-xl text-secondary-400"></i>
+                        </a>
+                      )}
                     </div>
                     {content.bio}
 

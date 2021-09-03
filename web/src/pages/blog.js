@@ -13,13 +13,11 @@ import Newsletter from "../components/Form/Newsletter";
 
 export const query = graphql`
   {
-    openGraphImage: file(
-      relativePath: { eq: "open-graph/facebook/Homepage.jpg" }
-    ) {
+    openGraphImage: file(relativePath: { eq: "open-graph/facebook/Blog.jpg" }) {
       publicURL
     }
     twitterOpenGraphImage: file(
-      relativePath: { eq: "open-graph/twitter/Homepage.jpg" }
+      relativePath: { eq: "open-graph/twitter/Blog.jpg" }
     ) {
       publicURL
     }
