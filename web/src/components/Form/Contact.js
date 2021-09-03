@@ -144,9 +144,16 @@ export default class Form extends Component {
               required={true}
             >
               <option value="">Select one...</option>
-              <option value="Option 1">Option 1</option>
-              <option value="Option 2">Option 2</option>
-              <option value="Option 3">Option 3</option>
+              <option value="Life Insurance">Life Insurance</option>
+              <option value="Annuities">Annuities</option>
+              <option value="Income & Asset Protection">
+                Income & Asset Protection
+              </option>
+              <option value="Asset Based LTC">Asset Based LTC</option>
+              <option value="Estate Planning">Estate Planning</option>
+              <option value="Premium Financing">Premium Financing</option>
+              <option value="Business Succession">Business Succession</option>
+              <option value="Wealth Succession">Wealth Succession</option>
               <option value="Other">Other</option>
             </select>
           </div>

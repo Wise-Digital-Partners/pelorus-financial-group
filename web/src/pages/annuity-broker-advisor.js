@@ -25,7 +25,7 @@ const Page = ({ data }) => {
         <div className="container">
           <div className="grid md:grid-cols-2 gap-y-8 md:gap-x-10 lg:gap-x-20 items-center">
             <div className="order-2 md:order-1">
-              <h1>Annuity Broker</h1>
+              <h1>Annuities</h1>
               <p>
                 With some of the deepest roots in the industry, partnering with
                 Pelorus means you will work with a Brokerage General Agency and

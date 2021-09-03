@@ -27,7 +27,7 @@ const Page = ({ data }) => {
         <div className="container">
           <div className="grid md:grid-cols-2 gap-y-8 md:gap-x-10 lg:gap-x-20 items-center">
             <div className="order-2 md:order-1">
-              <h1>Disability Insurance Broker</h1>
+              <h1>Disability Insurance</h1>
               <p className="mb-0">
                 Disability insurance and income replacement have evolved into a
                 diverse collection of products and solutions. They're designed

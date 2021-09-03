@@ -94,7 +94,7 @@ const Slider = ({ slideIndex, slides }) => {
                     {content.bio}
 
                     <ButtonSolid
-                      href="#"
+                      modal="modal-contact"
                       text={["Contact ", content.first_name]}
                     />
                   </div>

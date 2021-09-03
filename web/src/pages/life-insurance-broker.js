@@ -25,7 +25,7 @@ const Page = ({ data }) => {
         <div className="container">
           <div className="grid md:grid-cols-2 gap-y-8 md:gap-x-10 lg:gap-x-20 items-center">
             <div className="order-2 md:order-1">
-              <h1>Life Insurance Broker</h1>
+              <h1>Life Insurance</h1>
               <p>
                 Pelorus is a top life insurance broker serving San Diego and
                 nationwide. We have a passion for sound long-term financial
