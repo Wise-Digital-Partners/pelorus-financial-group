@@ -5,7 +5,6 @@ import { GatsbyImage } from "gatsby-plugin-image";
 import Layout from "../components/Layout";
 import SearchEngineOptimization from "../components/SEO";
 import CallToAction from "../components/Repeating/CTA";
-import ButtonSolid from "../components/Button/ButtonSolid";
 import ButtonGhost from "../components/Button/ButtonGhost";
 import ButtonWithUnderline from "../components/Button/ButtonWithUnderline";
 
@@ -26,7 +25,7 @@ const Page = ({ data }) => {
           <div className="grid md:grid-cols-2 gap-y-8 md:gap-x-10 lg:gap-x-20 items-center">
             <div className="order-2 md:order-1">
               <h1>Contracting & Licensing</h1>
-              <p>
+              <p className="mb-0">
                 To complete your contracting request, fill out the questionnaire
                 below and then connect to SureLC, our online contracting tool.
                 SureLC provides you with up-to-date licensing statuses for each

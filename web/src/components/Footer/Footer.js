@@ -23,15 +23,15 @@ const Footer = ({ hideFooter }) => {
     markets: [
       {
         name: "Life Insurance ",
-        href: "/life-insurance-broker/",
+        href: "/life-insurance/",
       },
       {
         name: "Annuities",
-        href: "/annuity-broker-advisor/",
+        href: "/annuities/",
       },
       {
         name: "Income and Asset Protection",
-        href: "/disability-insurance-broker/",
+        href: "/disability-insurance/",
       },
       {
         name: "Asset Based LTC",
@@ -67,10 +67,10 @@ const Footer = ({ hideFooter }) => {
         name: "Contracting ",
         href: "/contracting-licensing/",
       },
-      {
-        name: "LifeLine Applications",
-        href: "/lifeline-applications/",
-      },
+      // {
+      //   name: "LifeLine Applications",
+      //   href: "/lifeline-applications/",
+      // },
       {
         name: "Carrier Partners ",
         href: "/carrier-partners/",

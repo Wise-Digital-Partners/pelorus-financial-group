@@ -97,15 +97,15 @@ const MainNav = ({
       },
       {
         name: "Life Insurance",
-        href: "/life-insurance-broker/",
+        href: "/life-insurance/",
       },
       {
         name: "Annuities",
-        href: "/annuity-broker-advisor/",
+        href: "/annuities/",
       },
       {
         name: "Income & Asset Protection",
-        href: "/disability-insurance-broker/",
+        href: "/disability-insurance/",
       },
       {
         name: "Asset Based LTC",

@@ -203,7 +203,7 @@ const Page = ({ data }) => {
 
       <ValueProps />
       <Toolbox />
-      <Testimonials />
+      <Testimonials className="mb-0" />
 
       <CallToAction />
     </Layout>

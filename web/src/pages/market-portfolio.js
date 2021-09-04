@@ -13,19 +13,19 @@ const Page = ({ data }) => {
       image: data.lifeInsurance.childImageSharp.gatsbyImageData,
       heading: "Life Insurance",
       text: "We offer the best industry options for life insurance. Your clients will benefit from our expansive portfolio.",
-      link: "/life-insurance-broker/",
+      link: "/life-insurance/",
     },
     {
       image: data.annuities.childImageSharp.gatsbyImageData,
       heading: "Annuities",
       text: "Let us assist you with quotes, contracting, and servicing for all your annuity needs.",
-      link: "/annuity-broker-advisor/",
+      link: "/annuities/",
     },
     {
       image: data.assetProtection.childImageSharp.gatsbyImageData,
       heading: "Income and Asset Protection",
       text: "We’ll help you navigate the diverse collection of products and solutions designed to protect income and assets.",
-      link: "/disability-insurance-broker/",
+      link: "/disability-insurance/",
     },
     {
       image: data.assetBasedLTC.childImageSharp.gatsbyImageData,

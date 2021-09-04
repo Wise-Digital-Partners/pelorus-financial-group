@@ -159,7 +159,7 @@ const Page = ({ data }) => {
               />
             </header>
             <div className="grid md:grid-cols-4 gap-y-10 md:gap-x-6">
-              <AniLink fade to="/life-insurance-broker/" className="group">
+              <AniLink fade to="/life-insurance/" className="group">
                 <div className="filter grayscale group-hover:grayscale-0 mb-2 transition-all duration-300 ease-linear">
                   <GatsbyImage
                     image={data.lifeInsurance.childImageSharp.gatsbyImageData}
@@ -167,7 +167,7 @@ const Page = ({ data }) => {
                 </div>
                 <p className="heading-five mb-0">Life Insurance</p>
               </AniLink>
-              <AniLink fade to="/annuity-broker-advisor/" className="group">
+              <AniLink fade to="/annuities/" className="group">
                 <div className="filter grayscale group-hover:grayscale-0 mb-2 transition-all duration-300 ease-linear">
                   <GatsbyImage
                     image={data.annuities.childImageSharp.gatsbyImageData}
@@ -175,11 +175,7 @@ const Page = ({ data }) => {
                 </div>
                 <p className="heading-five mb-0">Annuities</p>
               </AniLink>
-              <AniLink
-                fade
-                to="/disability-insurance-broker/"
-                className="group"
-              >
+              <AniLink fade to="/disability-insurance/" className="group">
                 <div className="filter grayscale group-hover:grayscale-0 mb-2 transition-all duration-300 ease-linear">
                   <GatsbyImage
                     image={data.assetProtection.childImageSharp.gatsbyImageData}
@@ -246,8 +242,7 @@ const Page = ({ data }) => {
 
       <Toolbox />
       <LogoCloud />
-      <Testimonials />
-
+      <Testimonials className="mb-0" />
       <CallToAction />
     </Layout>
   );

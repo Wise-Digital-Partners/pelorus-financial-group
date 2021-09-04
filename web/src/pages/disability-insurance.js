@@ -17,8 +17,8 @@ const Page = ({ data }) => {
   return (
     <Layout>
       <SearchEngineOptimization
-        title="Disability Insurance Broker | Pelorus Financial Group"
-        description="We're a disability insurance broker that will get you the latest products and regulatory information to help you build, navigate, and implement plans."
+        title="Disability Insurance | Pelorus Financial Group"
+        description="Need disability insurance assistance? Pelorus will get you the latest products and regulatory information to help you build, navigate, and implement plans."
         // openGraphImage={data.openGraphImage.publicURL}
         // twitterOpenGraphImage={data.twitterOpenGraphImage.publicURL}
       />
@@ -84,7 +84,7 @@ const Page = ({ data }) => {
 
       <ValueProps />
       <Toolbox />
-      <Testimonials />
+      <Testimonials className="mb-0" />
 
       <CallToAction />
     </Layout>

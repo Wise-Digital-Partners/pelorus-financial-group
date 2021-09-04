@@ -15,8 +15,8 @@ const Page = ({ data }) => {
   return (
     <Layout>
       <SearchEngineOptimization
-        title="Annuity Broker & Advisor | Pelorus Financial Group"
-        description="Pelorus is an annuity broker & advisor that works with the largest and most reputable carriers in the world. Get help with quotes, contracting, & servicing."
+        title="Annuities | Pelorus Financial Group"
+        description="Need assistance with annuities? Pelorus works with the largest and most reputable carriers in the world. Get help with quotes, contracting, & servicing."
         // openGraphImage={data.openGraphImage.publicURL}
         // twitterOpenGraphImage={data.twitterOpenGraphImage.publicURL}
       />
@@ -77,7 +77,7 @@ const Page = ({ data }) => {
 
       <ValueProps />
       <Toolbox />
-      <Testimonials />
+      <Testimonials className="mb-0" />
 
       <CallToAction />
     </Layout>

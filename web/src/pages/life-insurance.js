@@ -15,8 +15,8 @@ const Page = ({ data }) => {
   return (
     <Layout>
       <SearchEngineOptimization
-        title="Life Insurance Broker | Pelorus Financial Group"
-        description="With Pelorus, you get a top life insurance broker with a passion for sound long-term financial planning that helps advisors fulfill their client's needs."
+        title="Life Insurance | Pelorus Financial Group"
+        description="With Pelorus, our passion for sound long-term financial planning helps advisors fulfill their client's needs. Learn about our life insurance offerings here."
         // openGraphImage={data.openGraphImage.publicURL}
         // twitterOpenGraphImage={data.twitterOpenGraphImage.publicURL}
       />
@@ -73,7 +73,7 @@ const Page = ({ data }) => {
 
       <ValueProps />
       <Toolbox />
-      <Testimonials />
+      <Testimonials className="mb-0" />
 
       <CallToAction />
     </Layout>
