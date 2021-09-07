@@ -49,6 +49,13 @@ import racing from "../downloads/non-medical/Racing.pdf";
 import scuba from "../downloads/non-medical/Scuba.pdf";
 import skySports from "../downloads/non-medical/Sky-Sports.pdf";
 
+import coverLetter from "../downloads/Cover-Letters.pdf";
+import businessInsurance from "../downloads/Business-Insurance.pdf";
+import paramedClient from "../downloads/Paramed-Client.pdf";
+import financialUnderwriting from "../downloads/Financial-Underwriting.pdf";
+import inspectionReportGuidelines from "../downloads/Inspection-Report-Guidelines.pdf";
+import lifeUnderwritingOverview from "../downloads/Life-Underwriting-Overview.pdf";
+
 const StyledTabs = styled.div`
   .react-tabs__tab-list {
     ${tw`max-w-[330px] mx-auto grid grid-cols-2 mb-8 md:mb-12 border border-secondary-400 rounded-3xl bg-secondary-400 bg-opacity-5`}
@@ -413,9 +420,8 @@ const Page = ({ data }) => {
             <h2 className="text-gray-900">Additional Guides & Resouces</h2>
           </header>
           <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-y-8 md:gap-y-6 md:gap-x-5 lg:gap-x-10">
-            <AniLink
-              fade
-              to="https://www.pelorusfg.com/pdfs/Cover-Letters.pdf"
+            <a
+              href={coverLetter}
               target="_blank"
               rel="noopener noreferrer"
               className="border border-primary-400 px-4 pb-10 pt-20 md:pt-28 rounded shadow-3xl h-full relative"
@@ -434,11 +440,10 @@ const Page = ({ data }) => {
                 Resource Line
               </div>
               <p className="heading-four mb-0">Cover Letter</p>
-            </AniLink>
+            </a>
 
-            <AniLink
-              fade
-              to="https://www.pelorusfg.com/pdfs/Paramed-Client.pdf"
+            <a
+              href={businessInsurance}
               target="_blank"
               rel="noopener noreferrer"
               className="border border-primary-400 px-4 pb-10 pt-20 md:pt-28 rounded shadow-3xl h-full relative"
@@ -457,11 +462,10 @@ const Page = ({ data }) => {
                 Resource Line
               </div>
               <p className="heading-four mb-0">Business Insurance</p>
-            </AniLink>
+            </a>
 
-            <AniLink
-              fade
-              to="https://www.pelorusfg.com/pdfs/Paramed-Client.pdf"
+            <a
+              href={paramedClient}
               target="_blank"
               rel="noopener noreferrer"
               className="border border-primary-400 px-4 pb-10 pt-20 md:pt-28 rounded shadow-3xl h-full relative"
@@ -480,11 +484,10 @@ const Page = ({ data }) => {
                 Resource Line
               </div>
               <p className="heading-four mb-0">Paramed Client</p>
-            </AniLink>
+            </a>
 
-            <AniLink
-              fade
-              to="https://www.pelorusfg.com/pdfs/Financial-Underwriting.pdf"
+            <a
+              href={financialUnderwriting}
               target="_blank"
               rel="noopener noreferrer"
               className="border border-primary-400 px-4 pb-10 pt-20 md:pt-28 rounded shadow-3xl h-full relative"
@@ -503,11 +506,10 @@ const Page = ({ data }) => {
                 Resource Line
               </div>
               <p className="heading-four mb-0">Financial Underwriting</p>
-            </AniLink>
+            </a>
 
-            <AniLink
-              fade
-              to="https://www.pelorusfg.com/pdfs/Inspection-Report-Guidelines.pdf"
+            <a
+              href={inspectionReportGuidelines}
               target="_blank"
               rel="noopener noreferrer"
               className="border border-primary-400 px-4 pb-10 pt-20 md:pt-28 rounded shadow-3xl h-full relative"
@@ -526,11 +528,10 @@ const Page = ({ data }) => {
                 Resource Line
               </div>
               <p className="heading-four mb-0">Inspection Report Guidelines</p>
-            </AniLink>
+            </a>
 
-            <AniLink
-              fade
-              to="https://www.pelorusfg.com/pdfs/Life-Underwriting-Overview.pdf"
+            <a
+              href={lifeUnderwritingOverview}
               target="_blank"
               rel="noopener noreferrer"
               className="border border-primary-400 px-4 pb-10 pt-20 md:pt-28 rounded shadow-3xl h-full relative"
@@ -549,7 +550,7 @@ const Page = ({ data }) => {
                 Resource Line
               </div>
               <p className="heading-four mb-0">Life Underwriting Overview</p>
-            </AniLink>
+            </a>
           </div>
         </div>
       </section>
