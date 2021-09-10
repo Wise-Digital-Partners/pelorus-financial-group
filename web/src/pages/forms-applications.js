@@ -8,8 +8,6 @@ import CallToAction from "../components/Repeating/CTA";
 import ButtonSolid from "../components/Button/ButtonSolid";
 import ButtonWithUnderline from "../components/Button/ButtonWithUnderline";
 
-import downloadFile from "../downloads/LifeLine-app.pdf";
-
 const Page = ({ data }) => {
   return (
     <Layout>
@@ -67,9 +65,9 @@ const Page = ({ data }) => {
                 complete application questions.
               </p>
               <ButtonWithUnderline
-                href={downloadFile}
+                href="https://form.jotform.com/212526897020051"
                 outboundLink={true}
-                text="Download Application"
+                text="Apply Now"
               />
             </div>
           </div>
