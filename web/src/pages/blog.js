@@ -71,8 +71,8 @@ const ArchivePage = (props) => {
   return (
     <Layout>
       <SearchEngineOptimization
-        title="Blog | Hotel Cleaning Services | Hospitality Staffing"
-        description="Browse the Hotel Cleaning Services blog here. We're trusted, reliable, and nationwide leaders in hotel cleaning and hospitality staffing."
+        title="Blog | Insurance Brokerage | Pelorus Financial"
+        description="Get expert advice and tips from the Pelorus team. Plus, sign up to get our blog delivered straight to your inbox."
         // openGraphImage={data.openGraphImage.publicURL}
         // twitterOpenGraphImage={data.twitterOpenGraphImage.publicURL}
       />
