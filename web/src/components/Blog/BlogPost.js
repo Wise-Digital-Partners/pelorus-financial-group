@@ -78,7 +78,7 @@ function BlogPost(props) {
         {/* </aside> */}
       </div>
 
-      <RecentBlogPosts heading={false} className="mb-16 md:mb-32" />
+      {/* <RecentBlogPosts heading={false} className="mb-16 md:mb-32" /> */}
 
       <CallToAction
         heading={[

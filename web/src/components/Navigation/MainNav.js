@@ -327,7 +327,7 @@ const MainNav = ({
                 ))}
               </ul>
             </li>
-            {/* <li className="group">
+            <li className="group">
               <AniLink
                 fade
                 to="/blog/"
@@ -341,7 +341,7 @@ const MainNav = ({
               >
                 Blog
               </AniLink>
-            </li> */}
+            </li>
           </ul>
 
           <div className="hidden lg:inline-flex lg:items-center lg:space-x-3">
@@ -421,7 +421,7 @@ const MainNav = ({
                       ))}
                     </Accordion>
                   </li>
-                  {/* <li>
+                  <li>
                     <AniLink
                       fade
                       to="/blog/"
@@ -431,7 +431,7 @@ const MainNav = ({
                     >
                       Blog
                     </AniLink>
-                  </li> */}
+                  </li>
                 </ul>
 
                 <div className="grid gap-y-4">
