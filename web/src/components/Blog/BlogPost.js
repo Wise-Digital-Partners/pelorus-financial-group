@@ -7,7 +7,7 @@ import styled from "@emotion/styled";
 import tw from "twin.macro";
 
 import CallToAction from "../Repeating/CTA";
-import RecentBlogPosts from "../Repeating/RecentBlogPosts";
+// import RecentBlogPosts from "../Repeating/RecentBlogPosts";
 
 const StyledContent = styled.div`
   /* p,

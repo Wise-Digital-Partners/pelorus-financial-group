@@ -1,7 +1,7 @@
 import React from "react";
 import { graphql } from "gatsby";
 import { GatsbyImage } from "gatsby-plugin-image";
-import AniLink from "gatsby-plugin-transition-link/AniLink";
+// import AniLink from "gatsby-plugin-transition-link/AniLink";
 import styled from "@emotion/styled";
 import tw from "twin.macro";
 import { Tab, Tabs, TabList, TabPanel } from "react-tabs";

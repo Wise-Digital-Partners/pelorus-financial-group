@@ -217,7 +217,7 @@ const Footer = ({ hideFooter }) => {
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                <span>Powered by</span> <img src={nestLogo} />
+                <span>Powered by</span> <img src={nestLogo} alt="NEST logo" />
               </a>
             </div>
           </div>
