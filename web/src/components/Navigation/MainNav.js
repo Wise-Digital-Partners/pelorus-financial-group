@@ -242,7 +242,7 @@ const MainNav = ({
                 onMouseEnter={isHoveringSubMenu2}
                 onMouseLeave={notHoveringSubMenu2}
                 className={`font-body font-semibold pb-8 ${
-                  scrolled && "text-gray-900"
+                  scrolled && "text-gray-900 hover:text-primary-400"
                 } ${
                   headerLinkColor === "white"
                     ? "text-white hover:text-white"
@@ -273,7 +273,7 @@ const MainNav = ({
                 onMouseEnter={isHoveringSubMenu1}
                 onMouseLeave={notHoveringSubMenu1}
                 className={`font-body font-semibold pb-8 ${
-                  scrolled && "text-gray-900"
+                  scrolled && "text-gray-900 hover:text-primary-400"
                 } ${
                   headerLinkColor === "white"
                     ? "text-white hover:text-white"
@@ -304,7 +304,7 @@ const MainNav = ({
                 onMouseEnter={isHoveringSubMenu3}
                 onMouseLeave={notHoveringSubMenu3}
                 className={`font-body font-semibold pb-8 ${
-                  scrolled && "text-gray-900"
+                  scrolled && "text-gray-900 hover:text-primary-400"
                 } ${
                   headerLinkColor === "white"
                     ? "text-white hover:text-white"
@@ -332,7 +332,7 @@ const MainNav = ({
                 fade
                 to="/blog/"
                 className={`font-body font-semibold ${
-                  scrolled && "text-gray-900"
+                  scrolled && "text-gray-900 hover:text-primary-400"
                 } ${
                   headerLinkColor === "white"
                     ? "text-white hover:text-white"
