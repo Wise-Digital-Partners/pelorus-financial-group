@@ -18,7 +18,7 @@ const Page = ({ data }) => {
         <div className="container">
           <div className="max-w-3xl mx-auto">
             <iframe
-              src="http://pelorus-reviews-platform.flywheelsites.com/"
+              src="https://pelorus-reviews-platform.flywheelsites.com/"
               title="Reviews Platform"
               width="100%"
               height="1200px"
