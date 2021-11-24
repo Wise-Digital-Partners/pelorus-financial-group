@@ -15,6 +15,9 @@ const StyledContent = styled.div`
   li {
     ${tw``}
   } */
+  a {
+    ${tw`underline hover:text-secondary-400`}
+  }
   ul {
     ${tw`list-disc pl-7 mb-6 flex flex-col space-y-0.5`}
   }
