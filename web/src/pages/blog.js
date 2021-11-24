@@ -6,7 +6,11 @@ import SearchEngineOptimization from "../components/SEO";
 import BlogPostPreviewList from "../components/Blog/BlogPostList";
 // import BlogPostFeaturedList from "../components/Blog/BlogPostFeaturedList";
 import GraphQLErrorList from "../components/Blog/graphql-error-list";
-import { mapEdgesToNodes } from "../lib/helpers";
+import {
+  filterOutDocsPublishedInTheFuture,
+  filterOutDocsWithoutSlugs,
+  mapEdgesToNodes,
+} from "../lib/helpers";
 import HeroFullWidth from "../components/Hero/HeroFullWidth";
 import CallToAction from "../components/Repeating/CTA";
 import Newsletter from "../components/Form/Newsletter";
@@ -66,7 +70,11 @@ const ArchivePage = (props) => {
     );
   }
 
-  const postNodes = data && data.posts && mapEdgesToNodes(data.posts);
+  const postNodes = (data || {}).posts
+    ? mapEdgesToNodes(data.posts)
+        .filter(filterOutDocsWithoutSlugs)
+        .filter(filterOutDocsPublishedInTheFuture)
+    : [];
 
   return (
     <Layout>
