@@ -29,7 +29,7 @@ const Page = ({ data }) => {
                 the full book of submitted and placed business.
               </p>
               <ButtonGhost
-                href="http://cps.smartofficeonline.com/"
+                href="https://mysmartoffice.ez-data.com/"
                 outboundLink={true}
                 text="Check Case Status"
               />
