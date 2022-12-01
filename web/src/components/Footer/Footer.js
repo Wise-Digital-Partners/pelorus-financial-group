@@ -104,7 +104,7 @@ const Footer = ({ hideFooter }) => {
                   className="mx-auto lg:mx-0 mb-14 lg:mb-10"
                 />
               </AniLink>
-
+              <p className="text-white text-[12px] mb-10">Securities offered through The Leaders Group, Inc. Member FINRA / SIPC 26 W. Dry Creek Circle, Suite 800, Littleton CA 80120 303-797-9080.  Pelorus Financial Group is not affiliated with The Leaders Group, Inc.</p>
               <Newsletter />
             </div>
 
