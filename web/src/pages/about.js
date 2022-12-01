@@ -70,20 +70,14 @@ const Page = ({ data }) => {
       {
         image: data.chandler.childImageSharp.gatsbyImageData,
         imagePopup: data.chandlerPopup.childImageSharp.gatsbyImageData,
-        first_name: "Chandler",
-        last_name: "Rossi",
+        first_name: "Shelby",
+        last_name: "Martinez",
         position: "Lead Case Manager",
         // linkedin: "",
         bio: (
           <>
             <p>
-              Chandler has been with Pelorus Financial since its inception.
-              Chandler supports our partnerships by efficiently and proactively
-              ensuring that business is processed. In addition, she is
-              foundational in maintaining and nurturing our relationships and
-              partnerships through her positive business outlook. Outside of
-              work, Chandler enjoys time at the beach, watching the Pittsburgh
-              Steelers and everything else life has to offer.
+            Shelby comes to Pelorus Financial group with years of industry experience.  Shelby supports our partnerships by efficiently and protectively ensuring that business is processed and placed with the carriers.  In addition, she is foundational in maintaining and nurturing our partnerships through her positive business outlook.  Outside of work Shelby enjoys spending time with her family and traveling the world.
             </p>
           </>
         ),
@@ -91,18 +85,14 @@ const Page = ({ data }) => {
       {
         image: data.brenton.childImageSharp.gatsbyImageData,
         imagePopup: data.brentonPopup.childImageSharp.gatsbyImageData,
-        first_name: "Brenton",
-        last_name: "Drake",
+        first_name: "Ralph",
+        last_name: "Fernandez",
         position: "Brokerage Manager",
         linkedin: "https://www.linkedin.com/in/brenton-drake-6a3675165/",
         bio: (
           <>
             <p>
-              Brenton supports advisors nationwide. His knowledge, efficiency,
-              and responsiveness allow our partners to feel confident that they
-              have the most favorable solution for their clients. Outside of
-              work, Brenton enjoys being active, traveling, and watching the Las
-              Vegas Raiders.
+            Ralph comes to Pelorus financial Group with over 10 years of industry experience.  Ralph supports our partnerships as a resource for quoting, case design, underwriting questions and everything else that can help in the business process.  Outside of work Ralph enjoys cooking, traveling and rooting for the Las Vegas Raiders. 
             </p>
           </>
         ),
@@ -290,12 +280,12 @@ export const query = graphql`
         gatsbyImageData(layout: CONSTRAINED, width: 564)
       }
     }
-    brenton: file(relativePath: { eq: "about/3.3 Brenton.jpg" }) {
+    brenton: file(relativePath: { eq: "about/3.3 Ralph.jpg" }) {
       childImageSharp {
         gatsbyImageData(layout: CONSTRAINED, width: 564)
       }
     }
-    chandler: file(relativePath: { eq: "about/3.2 Chandler.jpg" }) {
+    chandler: file(relativePath: { eq: "about/3.2 Shelby.jpg" }) {
       childImageSharp {
         gatsbyImageData(layout: CONSTRAINED, width: 564)
       }
