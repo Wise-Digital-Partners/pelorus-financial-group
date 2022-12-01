@@ -280,12 +280,12 @@ export const query = graphql`
         gatsbyImageData(layout: CONSTRAINED, width: 564)
       }
     }
-    brenton: file(relativePath: { eq: "about/3.3 Ralph.jpg" }) {
+    brenton: file(relativePath: { eq: "about/placeholder.jpg" }) {
       childImageSharp {
         gatsbyImageData(layout: CONSTRAINED, width: 564)
       }
     }
-    chandler: file(relativePath: { eq: "about/3.2 Shelby.jpg" }) {
+    chandler: file(relativePath: { eq: "about/placeholder.jpg" }) {
       childImageSharp {
         gatsbyImageData(layout: CONSTRAINED, width: 564)
       }
