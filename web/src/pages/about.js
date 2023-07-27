@@ -275,17 +275,17 @@ export const query = graphql`
         gatsbyImageData(layout: CONSTRAINED, width: 560)
       }
     }
-    brandon: file(relativePath: { eq: "about/3.1 Brandon.jpg" }) {
+    brandon: file(relativePath: { eq: "about/Brandon Ratliff.jpg" }) {
       childImageSharp {
         gatsbyImageData(layout: CONSTRAINED, width: 564)
       }
     }
-    brenton: file(relativePath: { eq: "about/placeholder.jpg" }) {
+    brenton: file(relativePath: { eq: "about/Ralph Fernandez.jpg" }) {
       childImageSharp {
         gatsbyImageData(layout: CONSTRAINED, width: 564)
       }
     }
-    chandler: file(relativePath: { eq: "about/placeholder.jpg" }) {
+    chandler: file(relativePath: { eq: "about/Shelby Martinez.jpg" }) {
       childImageSharp {
         gatsbyImageData(layout: CONSTRAINED, width: 564)
       }
@@ -295,7 +295,7 @@ export const query = graphql`
         gatsbyImageData(layout: CONSTRAINED, width: 564)
       }
     }
-    brandonPopup: file(relativePath: { eq: "about/Brandon Pop up.jpg" }) {
+    brandonPopup: file(relativePath: { eq: "about/Brandon Ratliff.jpg" }) {
       childImageSharp {
         gatsbyImageData(layout: CONSTRAINED, width: 788)
       }
