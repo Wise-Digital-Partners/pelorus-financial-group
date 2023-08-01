@@ -290,7 +290,7 @@ export const query = graphql`
         gatsbyImageData(layout: CONSTRAINED, width: 564)
       }
     }
-    evie: file(relativePath: { eq: "about/3.4 Evie.jpg" }) {
+    evie: file(relativePath: { eq: "about/Evie Ratliff.jpg" }) {
       childImageSharp {
         gatsbyImageData(layout: CONSTRAINED, width: 564)
       }
@@ -300,17 +300,17 @@ export const query = graphql`
         gatsbyImageData(layout: CONSTRAINED, width: 788)
       }
     }
-    brentonPopup: file(relativePath: { eq: "about/placeholder.jpg" }) {
+    brentonPopup: file(relativePath: { eq: "about/Ralph Fernandez.jpg" }) {
       childImageSharp {
         gatsbyImageData(layout: CONSTRAINED, width: 788)
       }
     }
-    chandlerPopup: file(relativePath: { eq: "about/placeholder.jpg" }) {
+    chandlerPopup: file(relativePath: { eq: "about/Shelby Martinez.jpg" }) {
       childImageSharp {
         gatsbyImageData(layout: CONSTRAINED, width: 788)
       }
     }
-    eviePopup: file(relativePath: { eq: "about/Evie Pop up.jpg" }) {
+    eviePopup: file(relativePath: { eq: "about/Evie Ratliff.jpg" }) {
       childImageSharp {
         gatsbyImageData(layout: CONSTRAINED, width: 788)
       }
